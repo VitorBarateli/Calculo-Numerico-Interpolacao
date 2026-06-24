@@ -10,8 +10,6 @@ Uma ferramenta de simulação matemática voltada para arquitetura de redes de j
 - [Métricas Analisadas](#-métricas-analisadas)
 - [Pré-requisitos](#-pré-requisitos)
 - [Instalação e Execução](#-instalação-e-execução)
-- [Exemplo de Resultados](#-exemplo-de-resultados)
-- [Estrutura do Código](#-estrutura-do-código)
 
 ---
 
@@ -66,5 +64,24 @@ O projeto exige **Python 3.10 ou superior**. As dependências necessárias para 
 
 1. **Clone o repositório:**
 ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+   git clone https://github.com/VitorBarateli/Calculo-Numerico-Interpolacao.git
    cd nome-do-repositorio
+```
+2. **Crie e ative um ambiente virtual (Recomendado):**
+```bash
+   # Linux/MacOS
+   python3 -m venv venv
+   source venv/bin/activate
+
+   # Windows
+   python -m venv venv
+   venv\Scripts\activate
+```
+3. **Instale as dependências:**
+```bash
+   pip install -r requirements.txt
+```
+4. **Execute a simulação:**
+```bash
+   python main.py
+```
